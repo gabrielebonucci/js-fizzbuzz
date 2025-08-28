@@ -23,25 +23,28 @@ for(let i = 1; i <=100; i++) {
 
     // 2. Controllo il caso più specifico, cioè se il numero è multiplo sia di 3 che di 5.
     // Uso l'operatore AND (&&) per unire le due condizioni.
+
     if (i % 3 === 0 && i % 5 === 0) {
     console.log("FizzBuzz");
 
-}
+    }
 
 // 3. Se non lo è, allora controllo se è multiplo solo di 3.
+
     else if (i % 3 === 0) {
     console.log("Fizz");
-}
+    }
 
 // 4. Se non lo è, allora controllo se è multiplo solo di 5.
-else if (i % 5 === 0) {
+
+    else if (i % 5 === 0) {
     console.log("Buzz")
-}
+    }
 
 // 5. Se non rientra in nessuno dei casi precedenti, allora stampo il numero.
 
-else{
+    else{
     console.log(i)
-}
+    }
 
 }
